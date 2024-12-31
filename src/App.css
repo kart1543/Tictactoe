@@ -1,0 +1,28 @@
+.main{
+  height:100vh;
+  background-color: #dcf2fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.board{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 5px;
+  column-gap: 5px;
+}
+
+.cell{
+  width:100px;
+  height:100px;
+  background-color: #b32784;
+  border: 1px solid rgb(226, 70, 86);
+  cursor: pointer;
+  
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
